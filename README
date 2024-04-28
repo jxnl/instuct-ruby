@@ -1,0 +1,20 @@
+# Introduction
+
+This is an example on how to use the Instructor.ruby library to do text classification at scale using `EasyTalk`.
+
+Steps to run
+
+```bash
+bundle install
+bundle exec ruby classify.rb
+```
+
+This should in turn produce the following output
+
+```bash
+Classification was {"Tags"=>["text_classification"], "Topic"=>"language_understanding", "Title"=>"Article Categorization"}
+Classification was {"Tags"=>["language_learning"], "Topic"=>"multilingualism", "Title"=>"Essential French Phrases for Travelers"}
+Classification was {"Tags"=>["politics", "current_events"], "Topic"=>"knowledge_and_factuality", "Title"=>"Challenges of Biden Administration"}
+Classification was {"Tags"=>["creative_writing"], "Topic"=>"language_generation", "Title"=>"Short Story Generation in Shanghai"}
+Classification was {"Tags"=>["sentiment_analysis"], "Topic"=>"language_understanding", "Title"=>"Sentiment Analysis"}
+```

@@ -1,0 +1,63 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.1.3.2)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.2.0)
+    bigdecimal (3.1.7)
+    concurrent-ruby (1.2.3)
+    connection_pool (2.4.1)
+    drb (2.2.1)
+    easy_talk (0.1.8)
+      activesupport (~> 7.0)
+      json-schema (~> 4)
+      sorbet-runtime (~> 0.5)
+    event_stream_parser (1.0.0)
+    faraday (2.9.0)
+      faraday-net_http (>= 2.0, < 3.2)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.1.0)
+      net-http
+    i18n (1.14.4)
+      concurrent-ruby (~> 1.0)
+    instructor-rb (0.1.0)
+      activesupport (~> 7.0)
+      easy_talk (~> 0.1.8)
+      ruby-openai (~> 6)
+    json-schema (4.3.0)
+      addressable (>= 2.8)
+    minitest (5.22.3)
+    multipart-post (2.4.0)
+    mutex_m (0.2.0)
+    net-http (0.4.1)
+      uri
+    public_suffix (5.0.5)
+    ruby-openai (6.5.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    sorbet-runtime (0.5.11361)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    uri (0.13.0)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-22
+
+DEPENDENCIES
+  instructor-rb
+
+BUNDLED WITH
+   2.5.9
